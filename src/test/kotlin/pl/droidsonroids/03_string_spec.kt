@@ -1,6 +1,6 @@
 @file:Suppress("EXPERIMENTAL_API_USAGE")
 
-package io.mehow
+package pl.droidsonroids
 
 import arrow.core.left
 import arrow.core.right

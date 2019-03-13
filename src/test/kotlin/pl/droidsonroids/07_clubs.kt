@@ -1,4 +1,4 @@
-package io.mehow
+package pl.droidsonroids
 
 import io.kotlintest.matchers.collections.shouldNotContain
 import io.kotlintest.matchers.numerics.shouldBeGreaterThanOrEqual

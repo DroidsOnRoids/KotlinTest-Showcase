@@ -1,6 +1,6 @@
 @file:Suppress("EXPERIMENTAL_UNSIGNED_LITERALS")
 
-package io.mehow
+package pl.droidsonroids
 
 import arrow.core.flatMap
 import arrow.core.left

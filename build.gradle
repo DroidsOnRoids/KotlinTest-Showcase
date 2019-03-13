@@ -3,7 +3,7 @@ plugins {
   id "org.jetbrains.kotlin.jvm" version "1.3.21"
 }
 
-group "io.mehow"
+group "pl.droidsonroids"
 version "0.1.0"
 
 sourceCompatibility = 1.8

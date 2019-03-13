@@ -1,4 +1,4 @@
-package io.mehow
+package pl.droidsonroids
 
 data class Player(
   val id: Long,
