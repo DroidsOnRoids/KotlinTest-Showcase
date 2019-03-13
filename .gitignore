@@ -4,7 +4,8 @@
 
 # Gradle
 /.gradle
-build/
+/build
+/out
 
 # Gradle Android
 /local.properties
