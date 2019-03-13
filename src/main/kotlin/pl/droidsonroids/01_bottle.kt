@@ -57,8 +57,7 @@ data class Bottle(val capacity: ULong, val amount: ULong) {
     fun emptied(capacity: ULong) = create(capacity, 0UL)
   }
 
-  fun pourIn(amount: ULong) = create(capacity,
-      this.amount + amount)
+  fun pourIn(amount: ULong) = create(capacity, this.amount + amount)
 
   fun pourOut(amount: ULong): Either<PouringProblem, Bottle> {
     return if (this.amount >= amount) Bottle(capacity, this.amount - amount).right()
